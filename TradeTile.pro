@@ -13,3 +13,7 @@ QML_IMPORT_PATH =
 # Default rules for deployment.
 include(deployment.pri)
 
+OTHER_FILES  += \
+                *.qml \
+                content/Clock.qml \
+                content/*.png

@@ -5,7 +5,9 @@ Item {
     property alias cellColor: rectangle.color
     signal clicked(color cellColor)
 
-    width: 40; height: 25
+    //width: 40; height: 25
+    //anchors.top: parent.top
+    //anchors.fill: parent
 
     Rectangle {
         id: rectangle
